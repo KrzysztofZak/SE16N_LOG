@@ -1,4 +1,4 @@
-# SE16N_LOG(<br />
+# SE16N_LOG<br />
 SE16N Log<br />
 <br />
 SAMPLE:<br />
