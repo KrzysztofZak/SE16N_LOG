@@ -17,3 +17,4 @@ data(log) = new zcl_se16n_log(
   append ls_det_ret to lt_det_ret.
   log->add_t_bapi_coru_return( lt_det_ret ).
   log->save( ).
+
