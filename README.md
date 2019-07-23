@@ -1,10 +1,10 @@
-# SE16N_LOG
-SE16N Log
-
-SAMPLE:
-data lt_det_ret type standard table of bapi_coru_return.
-data ls_det_ret type bapi_coru_return.
-
+# SE16N_LOG(<br />
+SE16N Log(<br />
+(<br />
+SAMPLE:(<br />
+data lt_det_ret type standard table of bapi_coru_return.(<br />
+data ls_det_ret type bapi_coru_return.(<br />
+(<br />
 data(log) = new zcl_se16n_log(<br />
   object      = 'LOG_OBJ'<br />
   subobject   = 'LOG_SUBOBJ'<br />
