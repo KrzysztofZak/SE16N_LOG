@@ -9,12 +9,14 @@ data(log) = new zcl_se16n_log(<br />
   object      = 'LOG_OBJ'<br />
   subobject   = 'LOG_SUBOBJ'<br />
   ext_id      = ext_id<br />
-  ).
+  ).<br />
+  <br />
+  ls_det_ret-type = 'E'.<br />
+  ls_det_ret-id = 'CO'.<br />
+  ls_det_ret-number = '341'.<br />
+  append ls_det_ret to lt_det_ret.<br />
   
-  ls_det_ret-type = 'E'.
-  ls_det_ret-id = 'CO'.
-  ls_det_ret-number = '341'.
-  append ls_det_ret to lt_det_ret.
-  log->add_t_bapi_coru_return( lt_det_ret ).
-  log->save( ).
+  log->add_t_bapi_coru_return( lt_det_ret ).<br />
+  log->save( ).<br />
+  <br />
 
