@@ -1,5 +1,5 @@
 # SE16N_LOG<br />
-SE16N Log<br />
+
 <br />
 SAMPLE:<br />
 data lt_det_ret type standard table of bapi_coru_return.<br />
