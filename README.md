@@ -5,10 +5,10 @@ SAMPLE:
 data lt_det_ret type standard table of bapi_coru_return.
 data ls_det_ret type bapi_coru_return.
 
-data(log) = new zcl_se16n_log(
-  object      = 'LOG_OBJ'
-  subobject   = 'LOG_SUBOBJ'
-  ext_id      = ext_id
+data(log) = new zcl_se16n_log(<br />
+  object      = 'LOG_OBJ'<br />
+  subobject   = 'LOG_SUBOBJ'<br />
+  ext_id      = ext_id<br />
   ).
   
   ls_det_ret-type = 'E'.
